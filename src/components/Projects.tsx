@@ -1,7 +1,7 @@
 import { ExternalLink, Github, Code, Globe, Smartphone, Database } from 'lucide-react';
 // Assurez-vous que ces images existent dans le même répertoire ou ajustez les chemins !
 import imgAppFlooter from "./img-app-flooter.png"
-import imgAppFybyShop from "./img-app-flooter.png"; 
+import imgAppFybyShop from "./fyby.png"; 
 import imgAppAidoedo from "./aidoedo.png"; 
 import imgAppExoplanet from "./exoplanet.png"; 
 import imgAppSuperMarket from "./geo.png"; 
