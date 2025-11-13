@@ -21,8 +21,8 @@ const Projects = () => {
     },
     {
       title: 'App FybyShop',
-      description: 'E-commerce des Appareils électroniques et gestion complète des commandes.',
-      tech: ['React', 'TypeScript', 'TailwindCss','Vite','Node'],
+      description: 'E-commerce des Appareils électroniques avec options de design en temps réel et gestion complète des commandes.',
+      tech: ['React', 'TypeScript', 'TailwindCss','Node'],
       icon: Code,
       gradient: 'from-blue-400 to-cyan-500',
       image: imgAppFybyShop,
@@ -32,8 +32,8 @@ const Projects = () => {
     },
     {
       title: 'App Aidoedo',
-      description: '',
-      tech: ['Next', 'TypeScript', 'TailwindCss','Vite','Node'],
+      description: 'Application web permettant aux utilisateurs de sélectionner ou d’importer des images et de les faire imprimer sur des tableaux personnalisés.',
+      tech: ['Next', 'TypeScript', 'TailwindCss','Node'],
       icon: Code,
       gradient: 'from-cyan-500 to-blue-400',
       image: imgAppAidoedo,
@@ -55,7 +55,7 @@ const Projects = () => {
     {
       title: 'App Localisation de Super Market',
       description: 'Application de localisation de supermarchés à proximité avec filtres.',
-      tech: ['HTML', 'CSS'],
+      tech: ['HTML', 'CSS','Vite'],
       icon: Globe,
       gradient: 'from-cyan-400 to-blue-500',
       image: imgAppSuperMarket,
