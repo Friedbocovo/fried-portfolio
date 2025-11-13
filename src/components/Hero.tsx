@@ -58,7 +58,7 @@ const Hero = () => {
           className="absolute inset-0 object-cover w-full h-full opacity-20" // Ajustez l'opacité au besoin
 
         >
-          <source src="../../coding_background.mp4" type="video/mp4" />
+          <source src="/coding_background.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la balise vidéo.
         </video>
 
