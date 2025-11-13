@@ -1,5 +1,4 @@
 import { Code, Palette, Smartphone, Layers } from 'lucide-react';
-import Profile from "./profile.jpg"
 const About = () => {
   const skills = [
     {
@@ -37,9 +36,6 @@ const About = () => {
               Je m'appelle <strong>Bocovo Fried</strong>, un développeur front-end passionné par la création d’expériences web modernes, fluides et esthétiques. Actuellement étudiant en formation GIT à LEPAC et poursuivant une formation d’ingénierie en informatique et télécommunications, je consacre mon temps à approfondir mes compétences en développement web et à transformer mes idées en projets concrets.
 
               Curieux et motivé, j’aime relever de nouveaux défis techniques tout en cherchant à améliorer mes connaissances jour après jour. Je conçois des interfaces intuitives et performantes à l’aide de React.js, TypeScript, Tailwind CSS, HTML, CSS, et JavaScript, en mettant toujours l’accent sur la simplicité, la performance et l’expérience utilisateur.
-              Je m'appelle Bocovo, un développeur front-end passionné par la création d’expériences web modernes, fluides et esthétiques. Actuellement étudiant en formation GIT à LEPAC et poursuivant une formation d’ingénierie en informatique et télécommunications, je consacre mon temps à approfondir mes compétences en développement web et à transformer mes idées en projets concrets.
-
-              Curieux et motivé, j’aime relever de nouveaux défis techniques tout en cherchant à améliorer mes connaissances
               Mon objectif est de continuer à progresser dans le domaine du développement web, d’évoluer dans ma formation d’ingénierie en informatique et télécommunications, et de collaborer sur des projets innovants qui apportent une réelle valeur ajoutée aux utilisateurs.
             </p>
           </div>

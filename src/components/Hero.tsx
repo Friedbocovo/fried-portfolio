@@ -35,7 +35,7 @@ const Hero = () => {
     >
 
       {/* Icônes */}
-      <div className="flex justify-center space-x-4 sm:space-x-6 mb-6 sm:mb-8 animate-fade-in-up delay-100 w-full mt-[30px] md:mt-auto">
+      <div className="flex justify-center space-x-4 sm:space-x-6 mb-6 sm:mb-8 animate-fade-in-up delay-100 w-full mt-[30px] md:mt-0 sm:mt-[500px]">
         <div className="p-3 sm:p-4 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-cyan-500/30 hover:border-cyan-400 transition-all duration-300 hover:scale-110 group animate-scale-in delay-100">
           <Code2 className="w-6 sm:w-8 h-6 sm:h-8 text-cyan-400 group-hover:rotate-12 transition-transform" />
         </div>
@@ -58,7 +58,7 @@ const Hero = () => {
           className="absolute inset-0 object-cover w-full h-full opacity-20" // Ajustez l'opacité au besoin
 
         >
-          <source src="/coding_background.mp4" type="video/mp4" />
+          <source src="../../coding_background.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la balise vidéo.
         </video>
 
