@@ -17,7 +17,7 @@ const Projects = () => {
       gradient: 'from-cyan-400 to-blue-500',
       image: imgAppFlooter,
       liveUrl: 'https://flouter-app.vercel.app/', 
-      githubUrl: 'https://github.com/votre-utilisateur/app-flooter' // AJOUT OPTIONNEL pour GitHub
+      githubUrl: 'https://github.com/Friedbocovo/flouter-app' // AJOUT OPTIONNEL pour GitHub
     },
     {
       title: 'App FybyShop',
