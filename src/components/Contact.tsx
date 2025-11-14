@@ -53,7 +53,7 @@ Cordialement,
 
 ---
 Nom: ${formData.name}
-Email de l'expéditeur: ${formData.email}
+Email: ${formData.email}
     `.trim();
 
     // 2. Encode subject and body for the mailto URL
