@@ -113,7 +113,7 @@ const Hero = () => {
           <div className=" flex p-0 flex-col items-center justify-center lg:w-1/2 lg:order-2">
 
             {/* Photo */}
-            <div className="flex items-center justify-center w-full mb-6 sm:mb-8 mr-5 ml-0">
+            <div className="flex items-center justify-center w-full  mb-6 sm:mb-8 mr-5 ml-0">
               <div
                 className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 animate-float"
                 style={{
@@ -121,7 +121,7 @@ const Hero = () => {
                 }}
               >
                 <div
-                  className="md:w-[350px] md:h-[300px] h-full w-full  rounded-3xl overflow-hidden border-4 border-cyan-400/50 shadow-2xl shadow-cyan-500/50 relative group animate-pulse-glow"
+                  className="md:w-[350px] md:h-[300px] lg:w-[500px] lg:h-[450px] lg:mt-[-40px] h-full w-full  rounded-3xl overflow-hidden border-4 border-cyan-400/50 shadow-2xl shadow-cyan-500/50 relative group animate-pulse-glow"
                   style={{
                     transform: `rotateX(${profileRotation.x}deg) rotateY(${profileRotation.y}deg)`,
                     transformStyle: 'preserve-3d',

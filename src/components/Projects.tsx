@@ -13,6 +13,7 @@ const Projects = () => {
       title: 'App Flooter dimages',
       description: 'Application web permettant de flouter des images avec les intensiter de floutage choisie par lutilisateur.',
       tech: ['React', 'TypeScript', 'TailwindCss','Vite'],
+      status: ['Project Terminer'],
       icon: Code,
       gradient: 'from-cyan-400 to-blue-500',
       image: imgAppFlooter,
@@ -23,6 +24,7 @@ const Projects = () => {
       title: 'App FybyShop',
       description: 'E-commerce des Appareils électroniques avec options de design en temps réel et gestion complète des commandes.',
       tech: ['React', 'TypeScript', 'TailwindCss','Node'],
+      status: ['Project Terminer'],
       icon: Code,
       gradient: 'from-blue-400 to-cyan-500',
       image: imgAppFybyShop,
@@ -34,6 +36,7 @@ const Projects = () => {
       title: 'App Aidoedo',
       description: 'Application web permettant aux utilisateurs de sélectionner ou d’importer des images et de les faire imprimer sur des tableaux personnalisés.',
       tech: ['Next', 'TypeScript', 'TailwindCss','Node'],
+      status: ['Project En Cours'],
       icon: Code,
       gradient: 'from-cyan-500 to-blue-400',
       image: imgAppAidoedo,
@@ -45,6 +48,7 @@ const Projects = () => {
       title: 'App Exoplanet',
       description: 'Exploration des exoplanètes avec visualisations interactives en utilisant les  données de la NASA',
       tech: ['React', 'TypeScript', 'TailwindCss','Vite'],
+      status: ['Project Terminer'],
       icon: Code,
       gradient: 'from-blue-500 to-cyan-400',
       image: imgAppExoplanet,
@@ -56,6 +60,7 @@ const Projects = () => {
       title: 'App Localisation de Super Market',
       description: 'Application de localisation de supermarchés à proximité avec filtres.',
       tech: ['HTML', 'CSS','Vite'],
+      status: ['Project Terminer'],
       icon: Globe,
       gradient: 'from-cyan-400 to-blue-500',
       image: imgAppSuperMarket,
@@ -66,6 +71,7 @@ const Projects = () => {
       title: 'App QRcode',
       description: 'Générateur de QR codes personnalisés avec options de design et intégration facile.',
       tech: ['React', 'TypeScript', 'TailwindCss','Vite'],
+      status: ['Project Terminer'],
       icon: Code,
       gradient: 'from-blue-400 to-cyan-500',
       image: imgAppQRcode,
@@ -129,6 +135,17 @@ const Projects = () => {
                         className="px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full text-sm border border-cyan-500/30"
                       >
                         {tech}
+                      </span>
+                    ))}
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.status.map((status, i) => (
+                      <span
+                        key={i}
+                        className="px-3 py-1 bg-green-500/30 text-green-400  rounded-full text-sm border border-green-500/30"
+                      >
+                        {status}
                       </span>
                     ))}
                   </div>

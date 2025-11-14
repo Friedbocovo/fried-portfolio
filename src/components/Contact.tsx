@@ -95,7 +95,7 @@ Email de l'expéditeur: ${formData.email}
   ];
 
   const socialLinks = [
-    { icon: Linkedin, link: '#', color: 'hover:text-blue-400' },
+    { icon: Linkedin, link: 'https://www.linkedin.com/in/fried-bocovo', color: 'hover:text-blue-400' },
     { icon: Github, link: 'https://github.com/Friedbocovo', color: 'hover:text-white' },
     { icon: DiscordIcon, link: 'https://discord.com/channels/@me9', color: 'hover:text-purple-400' }, // Utilisation du composant SVG DiscordIcon
   ];

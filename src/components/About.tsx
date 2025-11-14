@@ -1,4 +1,4 @@
-import { Code, Palette, Smartphone, Layers } from 'lucide-react';
+import { Code, Palette, Smartphone, Layers,Globe } from 'lucide-react';
 const About = () => {
   const skills = [
     {
@@ -18,6 +18,12 @@ const About = () => {
       title: 'Responsive Design',
       description: 'Applications adaptatives pour tous les appareils et plateformes',
       color: 'from-cyan-400 to-blue-400',
+    },
+    {
+      icon: Globe,
+      title: 'Wordpress',
+      description: 'Creation de tout site web',
+      color: 'from-cyan-400 to-blue-300',
     },
   ];
 
@@ -40,7 +46,7 @@ const About = () => {
             </p>
           </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {skills.map((skill, index) => {
             const Icon = skill.icon;
             return (
