@@ -39,9 +39,9 @@ const About = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto mb-8" />
             <p className="text-xl text-slate-300 max-w-6xl mx-auto leading-relaxed">
-              Je m'appelle <strong>Bocovo Fried</strong>, un développeur front-end passionné par la création d’expériences web modernes, fluides et esthétiques. Actuellement étudiant en formation GIT à LEPAC et poursuivant une formation d’ingénierie en informatique et télécommunications, je consacre mon temps à approfondir mes compétences en développement web et à transformer mes idées en projets concrets.
+              Je m'appelle <strong>Bocovo Fried</strong>, un développeur Full stack passionné par la création d’expériences web modernes, fluides et esthétiques. Actuellement étudiant en formation GIT à LEPAC et poursuivant une formation d’ingénierie en informatique et télécommunications, je consacre mon temps à approfondir mes compétences en développement web et à transformer mes idées en projets concrets.
 
-              Curieux et motivé, j’aime relever de nouveaux défis techniques tout en cherchant à améliorer mes connaissances jour après jour. Je conçois des interfaces intuitives et performantes à l’aide de React.js, TypeScript, Tailwind CSS, HTML, CSS, et JavaScript, en mettant toujours l’accent sur la simplicité, la performance et l’expérience utilisateur.
+              Curieux et motivé, j’aime relever de nouveaux défis techniques tout en cherchant à améliorer mes connaissances jour après jour. Je conçois des interfaces intuitives et performantes à l’aide de React.js, Next.js, TypeScript, Tailwind CSS, HTML, CSS, JavaScript, Node.js et WordPress, en mettant toujours l’accent sur la simplicité, la performance et l’expérience utilisateur.
               Mon objectif est de continuer à progresser dans le domaine du développement web, d’évoluer dans ma formation d’ingénierie en informatique et télécommunications, et de collaborer sur des projets innovants qui apportent une réelle valeur ajoutée aux utilisateurs.
             </p>
           </div>
